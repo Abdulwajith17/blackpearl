@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    padding: 5px;
+}
+.nav {
+    height: 8vh;
+    padding: 8px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.nav .apptitle{
+    width: 50%;
+}
+.nav .menus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+a:hover{
+    border: 2px solid white;
+    transition: 100ms;
+    padding: 5px;
+}
+h1{
+    color: white;
+}
